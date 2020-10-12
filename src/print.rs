@@ -4,7 +4,7 @@ pub fn run() {
 
     // Basic Formatting
     println!("Number: {}", 1);
-    println!("{} is from {}", "Peter", "VN")
+    println!("{} is from {}", "Peter", "VN");
 
     // Positional Arguments
     println!("{0} is from {1} and {0} like to {2}", "Peter", "Vn", "code");
