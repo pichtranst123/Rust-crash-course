@@ -1,20 +1,21 @@
-// mod print;
-// mod vars;
-// mod types;
-// mod strings;
-// mod tuples;
-// mod arrays;
-// mod vectors;
-// mod conditionals;
-// mod loops;
-// mod pointer_ref;
-// mod structs;
-// mod enums;
-mod cli;
+pub mod models;
+// use models::print::run;
+// use models::vars::run;
+use models::types::run;
+// use models::strings::run;
+// use models::tuples::run;
+// use models::arrays::run;
+// use models::vectors::run;
+// use models::conditionals::run();
+// use models::loops::run();
+// use models::pointer_ref::run();
+// use models::structs::run();
+// use models::enums::run();
+// use models::cli::run();
 
 fn main() {
     // println!("Hello, world!");
-    // print::run();
+    run();
     // vars::run();
     // types::run();
     // strings::run();
@@ -26,5 +27,5 @@ fn main() {
     // pointer_ref::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
 }
