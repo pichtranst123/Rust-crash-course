@@ -1,21 +1,22 @@
 pub mod models;
-// use models::print::run;
-// use models::vars::run;
-use models::types::run;
-// use models::strings::run;
-// use models::tuples::run;
-// use models::arrays::run;
-// use models::vectors::run;
-// use models::conditionals::run();
-// use models::loops::run();
-// use models::pointer_ref::run();
-// use models::structs::run();
-// use models::enums::run();
-// use models::cli::run();
+// use models::print;
+// use models::vars;
+// use models::types;
+// use models::strings;
+// use models::tuples;
+// use models::arrays;
+// use models::vectors;
+// use models::conditionals;
+// use models::loops;
+// use models::pointer_ref;
+// use models::structs;
+// use models::enums;
+// use models::cli;
 
 fn main() {
     // println!("Hello, world!");
-    run();
+    // run();
+    // print::run();
     // vars::run();
     // types::run();
     // strings::run();
